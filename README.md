@@ -5,6 +5,7 @@ def activation(x):
         return 1
     else:
         return 0
+        
     
 def perceptronModel(input,weight,bias):
     x = np.dot(weight,input) + bias
